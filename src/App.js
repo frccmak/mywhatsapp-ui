@@ -10,7 +10,6 @@ import SockJsClient from 'react-stomp';
 import { randomColor } from './utils/common';
 
 const webSocket_Url = "http://219.73.12.136:8080/ws-chat/";
-console.log(webSocket_Url);
 
 const App = () => {
   const [messages, setMessages] = useState([])
